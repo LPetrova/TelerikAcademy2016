@@ -1,0 +1,27 @@
+#h {
+    padding-left: 90px;
+}
+a{
+    color: deepskyblue;
+    font-size: 25px;
+    font-weight: 800;
+    text-align: center;
+}
+
+#laptopStyle {
+    border: 1px solid #000000;
+    float: left;
+    display: inline;
+}
+
+#slider
+{
+    padding: 30px;
+    padding-left: 60px;
+    float: left;
+    display: inline;
+}
+body{
+    font-family: Georgia;
+}
+fieldset { border: 2px solid #000; }

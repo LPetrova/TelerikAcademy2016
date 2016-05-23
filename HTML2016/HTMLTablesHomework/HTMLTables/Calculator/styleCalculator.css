@@ -1,0 +1,18 @@
+table{
+    width: 300px;
+    height: 380px;
+    color: rgb(116, 248, 255);
+    border-color: rgb(0, 230, 230);
+    background-color: rgb(230, 255, 255);
+    font-size: 40px;
+    font-family: Consolas;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px #1f0e0e;
+}
+td{
+    text-align: center;
+}
+#result{
+    text-align: right;
+    padding-right: 20px;
+}

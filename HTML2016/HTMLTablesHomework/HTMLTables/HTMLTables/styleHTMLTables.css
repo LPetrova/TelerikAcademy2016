@@ -1,0 +1,30 @@
+td
+{
+    font-size: 16px;
+}
+h2
+{
+    margin: 0;
+}
+
+.PropBorder
+{
+
+    border-color: white;
+}
+
+.singleCell
+{
+    text-align: center;
+    width: 15px;
+}
+.rightAline
+{
+    text-align: right;
+}
+.cellCenter
+{
+    text-align: center;
+}
+
+

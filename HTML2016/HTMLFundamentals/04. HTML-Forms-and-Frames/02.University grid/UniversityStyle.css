@@ -1,0 +1,14 @@
+table
+{
+    border-collapse: collapse;
+}
+th, td
+{
+    border: 1.5px solid #020202;
+    padding: 5px;
+}
+td:last-child
+{
+    font-weight: bold;
+    text-align: left;
+}

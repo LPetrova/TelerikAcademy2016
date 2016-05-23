@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Registration Form</title>
+    <link href="styleRegistrationForm.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<form id="registrationForm" method="post" action="#">
+    <table id="registrationFormTable">
+        <tfoot>
+         <tr>
+             <td colspan="2" id="foot">
+             <input type="submit" value="Submit"/>
+             <button onclick="document.getElementById('registrationForm').reset()">Clear this form</button>
+             </td>
+         </tr>
+        </tfoot>
+        <tr>
+            <th>Last Name</th>
+            <td>
+                <input type="text" name="lastName" class="fullWidth" value="" placeholder="Last name"/>
+            </td>
+        </tr>
+        <tr>
+            <th>First Name</th>
+            <td>
+                <input type="text" name="firstName" value="" class="fullWidth" placeholder="First name"/>
+            </td>
+        </tr>
+        <tr>
+            <th>Address</th>
+            <td>
+                <textarea name="address" rows="4" class="fullWidth" value=""></textarea>
+            </td>
+        </tr>
+        <tr>
+            <th>City</th>
+            <td><input type="text"  name="city"  value="" placeholder="City">
+                <label><b>State</b></label>
+                <input type="text" name="state"  class="minWidth" value="" placeholder="State">
+            </td>
+        </tr>
+        <tr>
+            <th>Zip/Postal Code</th>
+            <td><input type="text" name="zip" value="" class="sizeWidth" placeholder="Zip/Postal Code"></td>
+        </tr>
+        <tr>
+            <th>Country</th>
+            <td>
+                <select class="fullWidth">
+                    <option value="Bulgaria" name="Bulgaria" selected="selected">Bulgaria</option>
+                    <option value="England" name="England">England</option>
+                    <option value="Italy" name="Italy">Italy</option>
+                    <option value="Macedonia" name="Macedonia">Macedonia</option>
+                    <option value="Spain" name="Spain">Spain</option>
+                    <option value="Ukraine" name="Ukraine">Ukraine</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <th>Phone(country code,<br> area code, number)</th>
+            <td>
+                +(<input type="tel" class="minWidth" placeholder="359"/>)
+                <input type="tel" placeholder="##" class="avgWidth"/>-<input type="tel" id="phone" class="phoneW" placeholder="#######"/>
+            </td>
+        </tr>
+        <tr>
+            <th>E-mail</th>
+            <td><input type="email" name="email" value="" placeholder="####@###.##"></td>
+        </tr>
+        <tr>
+            <th>Birth date</th>
+            <td>Month<input type="text" class="dateSize"> Day<input type="text" class="dateSize"> Year(4 digit)<input
+                    type="text" class="minWidth"></td>
+        </tr>
+        <tr>
+            <th>Gender</th>
+            <td>
+                <select>
+                    <option name="male" value="male">Male</option>
+                    <option name="female" value="female">Female</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <th>Starting date</th>
+            <td>
+                <input type="radio" id="spring" name="startingDate" value="spring"  checked="checked">
+                <label for="spring">Spring 2006</label>
+                <input type="radio" id="summer" name="startingDate" value="summer">
+                <label for="summer">Summer 2006</label>
+            </td>
+        </tr>
+        <tr>
+            <th>Comments/Questions</th>
+            <td>
+                <textarea name="comments" rows="5" value=""></textarea>
+            </td>
+        </tr>
+        </tbody>
+    </table>
+</form>
+</body>
+</html>

@@ -1,0 +1,14 @@
+section {
+    width: 350px;
+}
+#imageButton {
+    background:url("1327063447.png")top left no-repeat;
+    background-size: 80% 80%;
+    cursor:pointer;
+    border:none;
+    width: 100px;
+    height: 30px;
+    margin: 25px 100px 5px 100px;
+    top:0px;
+    left:0px;
+}

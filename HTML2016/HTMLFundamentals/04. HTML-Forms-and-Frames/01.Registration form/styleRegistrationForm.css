@@ -1,0 +1,61 @@
+#registrationFormTable td
+{
+   border: 1.5px solid #54644d;
+   padding: 5px;
+}
+#registrationFormTable th
+{
+    border: 1.5px solid #54644d;
+    padding: 5px;
+}
+#registrationFormTable tr:nth-child(even)
+{
+    background:#F0F0F0;
+}
+#registrationFormTable tr:nth-child(odd)
+{
+    background:#FFFFFF;
+}
+#registrationFormTable th
+{
+    text-align: right;
+    font-weight: bold;
+}
+textarea
+{
+    resize: none;
+}
+.phoneW
+{
+   width: 70px;
+}
+.sizeWidth
+{
+    width: 55px;
+}
+.avgWidth
+{
+    width: 35px;
+}
+.dateSize
+{
+    width: 20px;
+}
+.minWidth
+{
+    width: 30px;
+}
+
+.fullWidth{
+    width: 98%;
+}
+#foot {
+    background: #caffe7;
+}
+#foot button, #foot input{
+    width: 42%;
+    margin: 2px 12px 2px 12px;
+    height: 30px;
+    color: #020202;
+    background: #b5b1b2;
+}
