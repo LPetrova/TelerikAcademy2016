@@ -1,0 +1,91 @@
+body {
+    font-family: ariel, sans-serif;
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+}
+
+#container {
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 900px;
+}
+
+section #insideBorder  {
+    position: relative;
+    display: inline-block;
+    flex-wrap: wrap;
+    width: 71%;
+    border: 2px solid black;
+    margin: 10px;
+    padding: 10px;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border-bottom: 2px solid black;
+    padding: 10px;
+    margin: 0 30px;
+}
+
+header nav a {
+    color: #56caf5;
+    font-size: 30px;
+    font-weight: bolder;
+    padding: 3px;
+}
+
+img.sizeImage {
+    width: 120px;
+    float: left;
+}
+.firstRow > span, .secondRow > span {
+    display: block;
+    width: 120px;
+    padding: 5px 2px;
+    font-size: 20px;
+}
+.secondRow {
+    float: right;
+    position: relative;
+    bottom: 65px;
+}
+
+.firstRow > span {
+    position: relative;
+    top: 55px;
+}
+
+fieldset {
+    display: inline-block;
+    border: 3px solid black;
+    width: 280px;
+    height: 170px;
+}
+
+legend {
+    padding: 0px 15px 0px;
+    text-align: center;
+    font-size: 23px;
+}
+
+aside {
+    display: inline-block;
+    float: right;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    bottom: 500px;
+    left: 23px;
+    font-size: 20px;
+}
+aside div {
+    margin: 25px;
+}
+
+input[type=range] {
+    position: relative;
+    left: 25px;
+}

@@ -1,0 +1,66 @@
+body, h1, p {
+    margin: 0px;
+    padding: 0px;
+}
+#bodyOfPage {
+    width: 421px;
+    height: 538px;
+    background-color:#eeeeee ;
+    border-radius: 2px;
+    font-family: Arial;
+    font-size: 15px;
+}
+
+h1 {
+    font-weight: normal;
+    font-size: 18px;
+    margin-bottom: 50px;
+    padding-top: 10px;
+}
+
+img {
+    float: left;
+    padding-right: 10px;
+}
+.bold {
+    font-weight: bold;
+}
+article {
+    width: 370px;
+    height: 90px;
+    background-color: #fff;
+    border: solid 1px #aaa;
+    padding: 15px;
+    margin-bottom: 35px;
+    margin-left: 6px;
+    margin-right: 6px;
+    font-size: 12px;
+}
+
+.listen {
+    background-image: url('images/ListenButton.png');
+    background-repeat: no-repeat;
+    border-style: inset;
+    border-color: #d90000;
+    width: 75px;
+    height: 25px;
+}
+.add {
+    background-image: url('images/AddButton.png');
+    background-repeat: no-repeat;
+    border-style: inset;
+    border-color: #d90000;
+    width: 64px;
+    height: 25px;
+}
+.buttons1 {
+    position: relative;
+    left: 85px;
+    top:30px;
+}
+.buttons {
+    position: relative;
+    left:85px;
+    top: 20px;
+
+}

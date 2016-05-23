@@ -1,0 +1,132 @@
+body {
+    font-family: Verdana;
+    font-size: 11px;
+    margin: 0;
+    padding: 0;
+}
+
+#container {
+    background-color: #f1f1f1;
+    display: flex;
+    flex-direction: row;
+    width: 786px;
+    height: 577px;
+    border: 1px solid black;
+}
+
+ul {
+    text-underline: none;
+    list-style-type: none;
+    padding-left: 5px;
+    font-size: 11px;
+    position: relative;
+    bottom: 16px;
+}
+
+nav {
+    width: 143px;
+    height: 33px;
+    text-align: left;
+
+}
+
+.homeImage {
+    position: relative;
+    top: 10px;
+}
+
+nav h1 {
+    font-size: 11px;
+    font-weight: bold;
+    position: relative;
+    left: 20px;
+    bottom: 15px;
+
+}
+
+.firstLine {
+    color: #981f1d;
+    font-weight: bold;
+}
+
+section {
+    width: 499px;
+    height: 535px;
+    border: 1px solid darkgray;
+    margin: 1px 1px 10px 1px;
+    background-color: white;
+}
+
+section h1 {
+    font-size: 16px;
+}
+
+section h2 {
+    background-color: #808080;
+    color: white;
+    font-size: 14px;
+}
+
+section a {
+    color: #a53938;
+    font-weight: normal;
+}
+
+#cssimg {
+    float: left;
+}
+
+#firstDiv p {
+    font-weight: bold;
+    margin: 15px 10px;
+
+}
+
+hr {
+    width: 98%;
+}
+
+aside {
+    width: 145px;
+    height: 550px;
+}
+
+aside > div {
+    border: 1px solid darkgray;
+    text-align: center;
+    display: block;
+    padding: 4px;
+    background-color: white;
+}
+
+aside div a {
+    color: #981c1a;
+}
+
+.asideHeading h3 {
+    background-color: #808080;
+    color: white;
+    font-size: 12px;
+    margin: -4px;
+    margin-bottom: 2px;
+}
+
+input[type=text] {
+    width: 85px;
+    height: 11px;
+    margin-top: 2px;
+    margin-left: 2px;
+}
+
+input[type=image] {
+    margin-left: 2px;
+}
+
+input[type=button] {
+    width: 17px;
+    height: 17px;
+    border: 1px solid #4872ff;
+    border-radius: 2px;
+    text-align: center;
+
+}

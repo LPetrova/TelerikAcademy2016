@@ -1,0 +1,17 @@
+ul {
+    list-style-type: none;
+    position: relative;
+}
+li {
+    display: none;
+}
+span:hover {
+    text-decoration: underline;
+}
+
+ul:hover li {
+    display: block;
+    color: #A9A9A9;
+    text-indent: 10px;
+    text-decoration: none;
+}
